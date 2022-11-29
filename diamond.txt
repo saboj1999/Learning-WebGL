@@ -1,0 +1,121 @@
+    // top Triangle on front
+    0.5, 0.5, 0.5,
+    -.5, 0.5, 0.5,
+    0, height, 0,
+
+    // top Triangle on left
+    -.5, 0.5, 0.5,
+    -.5, 0.5, -.5,
+    0, height, 0,
+
+    // top Triangle on back
+    -.5, 0.5, -.5,
+    0.5, 0.5, -.5,
+    0, height, 0,
+
+    // top Triangle on right
+    0.5, 0.5, -.5,
+    0.5, 0.5, 0.5,
+    0, height, 0,
+
+
+    // bottom triangle on back
+    -.5, -.5, -.5,
+    .5,-.5, -.5,
+    0, -height, 0,
+
+     // bottom triangle on left
+     -.5, -.5, -.5,
+     -.5, -.5, .5,
+     0, -height, 0,
+    
+
+    // bottom triangle on front
+    -.5, -.5, .5,
+    .5, -.5, .5,
+    0, -height, 0,
+
+    //bottom triangle on right
+    .5, -.5, .5,
+    .5,-.5, -.5,
+    0, -height, 0,
+
+    //right triangle on front
+    .5, .5, .5,
+    .5, -.5, .5,
+    height, 0, 0,
+
+    //right triangle on top
+    .5, .5, .5,
+    .5, .5, -.5,
+    height, 0, 0,
+
+    //right triangle on back
+    .5, .5, -.5,
+    .5, -.5, -.5,
+    height, 0, 0,
+
+    //right triangle on bottom
+    .5, -.5, -.5,
+    .5, -.5, .5, 
+    height, 0, 0, 
+
+    //left triangle on front
+    -.5, .5, .5,
+    -.5, -.5, .5,
+    -height, 0, 0,
+
+    //left triangle on top
+    -.5, .5, .5,
+    -.5, .5, -.5,
+    -height, 0, 0,
+
+    //left triangle on back
+    -.5, .5, -.5,
+    -.5, -.5, -.5,
+    -height, 0, 0,
+
+    //left triangle on bottom
+    -.5, -.5, -.5,
+    -.5, -.5, .5, 
+    -height, 0, 0, 
+
+    //front triangle on top
+    -.5, .5, .5,
+    .5, .5, .5,
+    0, 0, height,
+
+    //front triangle on left
+    -.5, -.5, .5,
+    -.5, .5, .5,
+    0, 0, height,
+
+    //front triangle on bottom
+    .5, -.5, .5,
+    -.5, -.5, .5,
+    0, 0, height,
+
+    //front triangle on right
+    .5, .5, .5,
+    .5, -.5, .5,
+    0, 0, height,
+
+    //back triangle on top
+    -.5, .5, -.5,
+    .5, .5, -.5,
+    0, 0, -height,
+    
+    //back triangle on left
+    -.5, -.5, -.5,
+    -.5, .5, -.5,
+    0, 0, -height,
+
+    //back triangle on bottom
+    .5, -.5, -.5,
+    -.5, -.5, -.5,
+    0, 0, -height,
+
+    //back triangle on right
+    .5, .5, -.5,
+    .5, -.5, -.5,
+    0, 0, -height
